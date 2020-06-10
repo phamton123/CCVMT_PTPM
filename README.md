@@ -17,5 +17,7 @@ Truy cập thư mục commons > utils.php
     $dbusername="root";
     $dbpw = "";
 ### Quản lý issues
+Đặt vấn đề và giải quyết vấn đề:
+https://github.com/phamton123/CCVMT_PTPM/issues
 ### Quản lý công việc project
 ### Wiki
