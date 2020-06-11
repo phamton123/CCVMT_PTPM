@@ -11,5 +11,16 @@
   <script>
   $(function () {
     $('#example1').DataTable()
+<<<<<<< HEAD
   })
+=======
+  });
+</script>
+
+<div id="alert-area"></div>
+<script>
+<?php
+    include $path.'../js/alertbox.js';
+?>
+>>>>>>> 43de105223155baa9cf52036972a215a3b72c48a
 </script>

@@ -27,6 +27,18 @@
   <link rel="stylesheet" href="<?php echo $ADMIN_ASSET_URL; ?>bower_components/bootstrap-daterangepicker/daterangepicker.css">
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="<?php echo $ADMIN_ASSET_URL; ?>plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+<<<<<<< HEAD
+=======
+
+  <!-- ton -->
+  <link rel="stylesheet" href="<?php echo $ADMIN_ASSET_URL; ?>plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo $ADMIN_ASSET_URL; ?>plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo $ADMIN_ASSET_URL; ?>dist/css/adminlte.min.css">
+  <!-- end ton -->
+
+>>>>>>> 43de105223155baa9cf52036972a215a3b72c48a
   <script src="<?php echo $ADMIN_ASSET_URL; ?>dist/js/jquery-3.3.1.min.js"></script>
   <script src="<?php echo $ADMIN_ASSET_URL; ?>dist/js/jquery.js"></script>
   
