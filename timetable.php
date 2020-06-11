@@ -1,6 +1,8 @@
+<?php include '_share/header.php';
 
-
-<!-- xây dung giao dien thoi khoa bieu  -->
+$listTimeQuery = "select * from timetable  group by class_id order by day";
+$times = getSimpleQuery($listTimeQuery,true);
+?>  
         <div class="container-fluid pb-4 px-0">
         <img src="img/banner.jpg" alt="" style="width:100%">
             <div class="container">
