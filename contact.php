@@ -3,6 +3,7 @@
                    <ol class="breadcrumb mb-0 p-0 pb-2">
                                 <li class="breadcrumb-item"><a href="http://localhost/assignment_web204/home">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Liên hệ</li>
+
                     </ol>
                     
                     <?= $sets['map'] ?>
@@ -23,6 +24,7 @@
                                                     <?php
                                                 }
                                                 ?>
+
                                         </div>
                                         <div class="form-group">
                                                 <input type="text" class="form-control" name="email" placeholder="Nhập email">
@@ -43,6 +45,7 @@
                                                     <?php
                                                 }
                                                 ?>
+
                                         </div>
                          </div>
                          <div class="col-md-4">
@@ -55,7 +58,6 @@
                      </div>
             </div>
         </div>
-
 
 
         <footer class="bg-dark pt-4">
