@@ -1,0 +1,1 @@
+<?php header("Location:".$ADMIN_URL."hocvien/index.php"); ?>
