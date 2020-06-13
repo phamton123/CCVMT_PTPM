@@ -1,7 +1,7 @@
 <?php
   $path = "./";
     require_once $path.'../commons/utils.php';
-    require_once 'querySQL.php';
+    include 'querySQL.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -101,12 +101,14 @@
       }else{
         include 'thongke.php';
       }
-      
       ?>
+    
+
+
       <div id="alert_popover">
       <div class="wrapper1">
-      <div class="content12">
-      </div>
+        <div class="content12">
+        </div>
       </div>
     </div>
     <!-- /.content -->
