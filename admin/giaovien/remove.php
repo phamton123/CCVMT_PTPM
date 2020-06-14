@@ -8,7 +8,6 @@
          header("Location:".$ADMIN_URL."giaovien");
          die;
      }
-
      $sql = "delete from teachers where id = $id";
      getSimpleQuery($sql);
      

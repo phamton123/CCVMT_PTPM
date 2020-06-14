@@ -17,13 +17,11 @@ $gender= $_POST['gender'];
     }else{
         $n = "";
 	}
-	
 	if($address == ""){
         $a = "a=Nhập địa chỉ&&";
     }else{
         $a = "";
     }
-    
     if($phone == ""){
         $ph = "ph=Nhập số điện thoại";
     }else if(is_numeric($phone)==false || strlen($phone) != 10){
@@ -37,7 +35,6 @@ $gender= $_POST['gender'];
         header('location: '.$ADMIN_URL.'giaovien/edit.php?id='.$id.'&&'.$n.$a.$ph);
         die;
     }
-
 
  $sql = "update teachers set fullname = '$fullname', address = '$address' , gender = '$gender', phone = '$phone' where id = '$id'";
  getSimpleQuery($sql);

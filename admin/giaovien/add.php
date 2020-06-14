@@ -99,6 +99,7 @@ require_once $path.$path.'commons/utils.php';
             value=that.val();
         data[name]= value;   
     });
+    
 
     $.ajax({
         url :url,
