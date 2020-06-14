@@ -32,7 +32,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Danh sách môn học</li>
+        <li class="active"> Danh sách môn học </li>
       </ol>
     </section>
 
@@ -43,7 +43,7 @@
                 <div class="col-xs-12">
                 <div class="box">
                 <div class="box-header">
-              <h3 class="box-title">Thêm bài tập</h3>
+              <h3 class="box-title"> Thêm bài tập </h3>
 
             <!-- /.box-header -->
             <div class="box-body">
@@ -84,7 +84,7 @@
 
             <label>Lớp học</label>
             <select class="form-control" id="class_id" name="class_id">
-                  <option value="0">--Chọn lớp học--</option>
+                  <option value="0">---Chọn lớp học---</option>
                 <?php foreach($classes as $row){ ?>
                   <option value="<?php echo $row['id']; ?>"><?php echo $row['name']; ?></option>
                 <?php } ?>
@@ -123,8 +123,8 @@
           </div>
 
           <div class="text-right">
-            <a href="<?= $ADMIN_URL?>baitap" class="btn btn-danger btn-xs">Huỷ</a>
-            <button type="submit" class="btn btn-xs btn-primary">Tạo mới</button>
+            <a href="<?= $ADMIN_URL?>baitap" class="btn btn-danger btn-xs"> Huỷ </a>
+            <button type="submit" class="btn btn-xs btn-primary"> Tạo mới </button>
           </div>
 
         </div>

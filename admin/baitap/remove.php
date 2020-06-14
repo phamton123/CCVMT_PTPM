@@ -9,6 +9,7 @@
          die;
      }
 
+
      $sql = "delete from baikiemtra where id = $cateId";
      getSimpleQuery($sql);
      

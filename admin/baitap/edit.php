@@ -38,7 +38,7 @@
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Danh sách môn học</li>
+        <li class="active"> Danh sách môn học </li>
       </ol>
     </section>
 
@@ -49,7 +49,7 @@
                 <div class="col-xs-12">
                 <div class="box">
                 <div class="box-header">
-              <h3 class="box-title">Thêm bài tập</h3>
+              <h3 class="box-title"> Thêm bài tập </h3>
 
             <!-- /.box-header -->
             <div class="box-body">
@@ -131,7 +131,7 @@
           <div class="text-right">
           <input type="hidden" name="id" value="<?php echo $_GET['id'] ?>">
             <a href="<?= $ADMIN_URL?>baitap" class="btn btn-danger btn-xs">Huỷ</a>
-            <button type="submit" class="btn btn-xs btn-primary">Tạo mới</button>
+            <button type="submit" class="btn btn-xs btn-primary"> Tạo mới </button>
           </div>
 
         </div>
