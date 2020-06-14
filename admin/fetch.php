@@ -14,7 +14,7 @@
     <div class="form-group">
         <textarea class="form-control" name="des" id="" rows="3"></textarea>
     </div>
-    <button type="submit" name="" id="" class="btn btn-primary btn-xs">Gửi phản hồi</button>
+    <button type="submit" name="" id="" class="btn btn-primary btn-xs"> Gửi phản hồi </button>
     </div>
     ';
 
