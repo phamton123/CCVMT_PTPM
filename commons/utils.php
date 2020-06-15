@@ -1,7 +1,7 @@
 <?php 
     session_start();
     $host = "localhost";
-    $dbname="pro1013";
+    $dbname="CCVMT_PTPM";
     $dbusername="root";
     $dbpw = "";
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8",$dbusername,$dbpw);
@@ -11,11 +11,11 @@
     define('TABLE_PRODUCT','products');
     define('TABLE_BRAND','brands');
     
-    define('SITE_URL','http://localhost:8888/www/pro1013/');
+    define('SITE_URL','http://localhost:8888/www/CCVMT_PTPM/');
     
-    $ADMIN_URL = "http://localhost:8888/www/pro1013/admin/";
-    $AP_URL = "http://localhost:8888/www/pro1013/ap/";
-    $ADMIN_ASSET_URL = "http://localhost:8888/www/pro1013/admin/adminlte/";
+    $ADMIN_URL = "http://localhost:8888/www/CCVMT_PTPM/admin/";
+    $AP_URL = "http://localhost:8888/www/CCVMT_PTPM/ap/";
+    $ADMIN_ASSET_URL = "http://localhost:8888/www/CCVMT_PTPM/admin/adminlte/";
 
     function getSimpleQuery($sql, $isAll = false){
         global $conn;
